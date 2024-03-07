@@ -1,1 +1,302 @@
+<!DOCTYPE html> 
+<!--Specifying language-->
+<html lang="en"> 
 
+<head> 
+
+<meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<body>  
+
+</body> 
+<!--Title page-->
+<title> About </title>  
+
+ 
+
+ 
+<!--indicating this is css-->
+<style type="text/css">  
+
+img{ 
+/* image display set to block */
+display: block; 
+/* margin left auto set to left */
+margin-left: auto; 
+/* margin right auto set to right */
+margin-right: right; 
+
+} 
+/* image class of me */
+.img_me 
+
+{ 
+/* floated the image of myself to left */
+float: left; 
+/* st the width of myself to 20% */
+width: 20%; 
+
+ 
+
+} 
+/* image */
+.img_Risk 
+
+{ 
+/* floated image to the right */
+float: right; 
+/* setted risk image width to 20 */
+width: 20; 
+
+ 
+
+} 
+
+
+ 
+
+body {  
+/* margin set to 0px */
+margin:0px; 
+  
+/* background image link of information security analyst */
+background-image: url(sec.png); 
+/* background image set to no repeat so there is no repeat of the same image */
+background-repeat: no-repeat; 
+/* background position set to center */
+background-position: center; 
+/* background attachment sent to fixed with regard to the viewport */
+background-attachment: fixed; 
+/* background image size on cover */
+background-size: cover; 
+
+
+
+ 
+
+}  
+
+
+
+
+
+ 
+
+ 
+
+h1 {  
+
+ 
+
+ 
+/* heading 1 background color set to grey */
+Background-color: grey;  
+
+ 
+
+ 
+/* text align set to center */
+Text-align: center;  
+
+
+ 
+
+}  
+
+h2 { 
+/* heading 2 background color set to yellow */
+Background-color: yellow; 
+/* text align set to center */
+text-align: center; 
+
+ 
+
+} 
+
+h3{ 
+/* text aligning normal for heding 3 */
+text-align: normal; 
+/* heading 3 background color is orange */
+background-color: orange; 
+
+} 
+
+ 
+/* indicating that this is a class */
+.navbar ul{  
+
+ 
+/* setting list style type to none */
+list-style-type: none;  
+
+ 
+/* adjusted background color for my nav bar to grey */
+background-color: rgba(128, 128, 128, 0.614);  
+
+ 
+/* set padding to 0px */
+padding: 0px;  
+
+/* setted margin to 0px */
+margin: 0px;  
+/* setted overfloe to hidden on my nav bar to prevent extra white space and horizontal scrolling */
+overflow: hidden; 
+
+ 
+
+}  
+
+ 
+/* indicating that this is a class */
+.navbar a{  
+
+ 
+/* setted nav bar color to white */
+color: white;  
+
+ 
+/* text decoration setted to none on my nav bar */
+text-decoration: none;  
+/* padding set to 15px on my nav bar */
+padding: 15px;  
+
+ 
+/* dsiplay set to block in my nav bar to take up all the avaliable screen width */
+display: block;  
+
+ 
+/* set the alignment to center */
+text-align: center;  
+/* nav bar font size set to 20px to make it more bigger. */
+font-size: 20px; 
+
+ 
+
+ 
+
+} 
+/* nav bar class */
+.navbar a:hover{ 
+/* i put my nav bar background color to a shade of grey */
+background-color: hsl(0,0%,10%); 
+
+} 
+
+.navbar li{ 
+/* set nav bar to left float */
+float:left; 
+
+}  
+
+ 
+
+ 
+
+ 
+
+ 
+
+P {  
+/* Added many fonts  */
+font-family: verdana, Arial, Helvetica; 
+/* set my paragraph font to 25px */
+font-size: 25px;  
+/* set my paragraph color to white */
+Color:  white;  
+
+
+}  
+
+ 
+
+ 
+
+ 
+
+ 
+
+</style>  
+
+ 
+
+ 
+
+</head>  
+
+ 
+
+<body>  
+
+ 
+
+ 
+<!--heading 1-->
+<h1> About Me </h1>  
+
+ 
+<!--navigation bar class-->
+<nav class="navbar"> 
+
+<ul>  
+
+ 
+<!--nav bar home-->
+<li><a href="">Home</a></li>  
+
+ 
+<!--nav bar about-->
+<li><a href="">About</a></li>  
+
+ 
+<!--nav bar contact-->
+<li><a href="">Contact</a></li>  
+
+ 
+
+</ul  
+
+ 
+
+ 
+
+</nav>  
+<!--heading 2-->
+<h2>Introduction.</h2> 
+ <!--demo javascript-->
+<p id="demo"> Things i have accomplished.</p>
+  <!--clickable button that changes message -->
+ <button type="button" onclick="myFunction()">click it</button>
+  <!--opening script tag for javascript-->
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Background experiences and goals below.";
+}
+
+</script>
+<!--image class and image of me-->
+<img class="img_me" src="Me.png"> 
+
+ 
+<!--Paragraph about my experiences and goals-->
+<p> I am a Sophomore at Ksu hoping to finish all 4years and obtain a bachelor degree in Information Technology. Experiences i have is i have taken and mastered many programming languages such as Python and c#. My goals are to hopefully get an internship in which i can start getting training and get a job and become a Information security analysis in which i assess vendors to see if they are fit for the company i work for and do soc reports aswell. 
+
+</p>  
+
+ 
+<!--heading 3-->
+<h3> More about Information Security analysis. </h3> 
+<!--image reference link-->
+<a href="https://itsecurity.uiowa.edu/sites/itsecurity.uiowa.edu/files/2022-12/risk-matrix.png"> 
+   <!--image class and image-->
+  <img class="img_Risk" src="Risk.png"> 
+<!--Paragraph explaining what Information Security Analyst do-->
+<p> In this job i will be implementing new system security plans as well as being involved in advancing up to date system security plans and performing security evaluations and risk management. I will also be giving a score based on the information that vendors give to use scoring based on which if it is low moderate and high because every company comes with something that is called a residual risk and it is important to evaluate them to see if there is any controls that are feasible to handle the risks.  
+
+</p>  
+
+
+</body>  
+</html>  
+ 
