@@ -1,1 +1,305 @@
+<!DOCTYPE html> 
+<!--Specifying language-->
+<html lang="en"> 
 
+<head> 
+
+<meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+  
+
+<body> 
+    
+    </body>
+    
+
+  
+   <!--Home page title-->
+  <title> Home page </title>  
+
+  <!--Adjusting features such as the font,color,layout, and other visual aspects of web pages.-->
+   <style>  
+   img{
+   /* img display set to block */
+    display: block;
+    /* img margin left set to auto*/
+    margin-left: auto;
+    /* img margin right set to right */
+    margin-right: right;
+   
+   }
+
+   body { 
+    /* setting margin to 0px */
+    margin:0px;
+   /* background color set to light blue */
+   background-color: lightblue; 
+   /* background image link of Kennesaw State University */
+   background-image: url(University.png);
+   /* background image set to no repeat so there is no repeat of the same image */
+   background-repeat: no-repeat;
+   /* background position set to center */
+   background-position: center ;
+   /* background attachment sent to fixed with regard to the viewport */
+   background-attachment: fixed;
+   /* background image size on cover */
+   background-size: cover;
+   
+
+   } 
+   footer p
+   {
+    font-size: 15px;
+   }
+   
+
+  
+   
+    h1 {  
+        /* heading 1 background color set to grey */
+        Background-color: grey;  
+        /* setting many fonts */
+       font-family: Arial, Helvetica, sans-serif;
+        /* text alignment set to center */
+        Text-align: center;  
+        /* font size set to 45 to make it bigger */
+        font-size: 45px;
+  
+       } 
+       h2 
+     
+       {
+        /* heading 2 background color set yellow */
+        Background-color:  yellow;
+        /* heading 2 text alignment set to center */
+        text-align: center;
+        /* font size set to 45 to make it bigger */
+        font-size: 45px;
+
+          
+       
+       }
+       h3{
+          /* text alignment set to center */
+        text-align: center;
+         /* heading 3 background color set to a shade of white */
+        background-color: rgb(255, 255, 255);
+         
+       }
+       /* indicating that this is a class */
+       .navbar ul{ 
+        /* setting list style type to none */
+        list-style-type: none; 
+        /* adjusted background color for my nav bar to grey */
+        background-color: rgba(128, 128, 128, 0.614); 
+        /* set padding to 0px */
+        padding: 0px; 
+        /* setted margin to 0px */
+        margin: 0px; 
+        /* setted overfloe to hidden on my nav bar to prevent extra white space and horizontal scrolling */
+        overflow: hidden;
+
+       } 
+       /* indicating that this is a class */
+       .navbar a{ 
+       /* setted nav bar color to white */
+       color: white; 
+       /* text decoration setted to none on my nav bar */
+       text-decoration: none; 
+       /* padding set to 15px on my nav bar */
+       padding: 15px; 
+       /* dsiplay set to block in my nav bar to take up all the avaliable screen width */
+       display: block; 
+       /* set the alignment to center */
+       text-align: center; 
+       /* nav bar font size set to 20px to make it more bigger. */
+       font-size: 20px;
+
+        
+
+       }
+       /* indicating that this is a class */
+       .navbar a:hover{
+        /* i put my nav bar background color to a shade of grey */
+        background-color: hsl(0,0%,10%);
+       
+       }
+       .navbar li{
+       /* set nav bar to left float */
+        float:left;
+       } 
+
+        
+
+        
+
+  
+
+   P {  
+
+   
+      /* Added many fonts  */
+      font-family: verdana, Arial, Helvetica;  
+
+  
+      /* set my paragraph font to 25px */
+      font-size: 25px;  
+
+  
+      /* set my paragraph color to white */
+      Color: rgb(238, 238, 238);  
+
+     
+
+  
+
+  
+
+        
+
+  
+
+       
+
+  
+
+      }  
+
+  
+  
+  Tr,th,td {  
+
+    /* set my size for my table to 30px */
+    font-size: 30px;
+   /* set my border for my table to 1px */
+    Border: 1px solid;  
+
+  
+    /* set my padding for my table to 10px */
+   Padding: 10px;  
+
+  
+   /* set my width for my table to 100 */
+   Width: 100;  
+
+  
+    /* set my margin to auto */
+   Margin: auto;  
+
+  
+    /* background color of my table set to pink */
+   Background-color: pink;  
+   
+  
+  
+   
+
+  
+
+    }  
+
+  
+
+</style>  
+
+  
+
+</head>  
+
+  <body>  
+
+  
+
+<h1> Patrick Oloruntoba </h1>  
+<!--navigation for Home About and Contact page-->
+<nav class="navbar">
+<ul> 
+<!--nav bar home-->
+<li><a href="">Home</a></li> 
+  <!--nav bar About-->
+  <li><a href="">About</a></li> 
+  <!--nav bar Contact-->
+  <li><a href="">Contact</a></li> 
+
+  </ul 
+  
+
+   
+
+  </nav> 
+   
+ 
+   <!--heading 2-->
+  <h2>Some things about me.</h2>
+   <!--demo javascript-->
+  <p id="demo"> Learn a little about me.</p>
+   <!--clickable button that changes message -->
+  <button type="button" onclick="myFunction()">click it</button>
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Brief information below.";
+}
+</script>
+<!--Some information about me -->
+<p> My name is Patrick Oloruntoba, and I was raised in Georgia, when I was younger I used to play soccer with my family. Things that I love to do outside of school is hanging with friends and play video games, which really helped my communication skills in making friends. I am in my 2nd year at Kennesaw State University, in which I am pursuing a bachelors degree in information technology.
+</p>  
+
+
+<h3>Charcteristics/ favorite things i like. </h3>
+<!--centering my table-->
+<table border= "1"align ="center"> 
+  
+  <!--inidcating table style setting it to 89%-->
+  <table style ="width:89%">
+   <tr>  
+     <!-- listing characteristics and favorite things-->
+     <th>Characteristics</th>  
+     <!--table header indicating favorite place to travel-->
+     <th>Favorite places to travel</th>  
+       <!--table header indicating favorite food-->
+     <th>Favorite Foods</th>  
+
+   </tr>  
+
+   <tr>  
+     <!--table data characteristic-->
+     <td>Friendly</td>  
+     <!--table data indicating my favorite place-->
+     <td>Miami </td>  
+      <!--table data indicating my favorite food-->
+       <td>Pizza </td> 
+
+   </tr>  
+
+   <tr>  
+      <!--table data characteristic-->
+     <td>Integrity </td>  
+     <!--table data indicating my favorite place-->
+     <td>Italy </td>                         
+      <!--table data indicating my favorite food-->
+     <td> Rice </td>  
+
+   </tr>  
+
+  </table>  
+  <!--link for ksu image-->
+  <a href="https://1000logos.net/kennesaw-state-owls-logo/">
+    <!--indicating height and image-->
+    <img src="Ksu.png" height="80" alt="This is the Ksu logo">
+  
+    
+ 
+<footer>
+  <p> This website is for a web development class project for Kennesaw State University.</p>
+</footer>
+
+</body>  
+
+</html>  
+
+ 
+
+ 
