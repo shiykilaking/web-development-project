@@ -1,1 +1,272 @@
+<!DOCTYPE html> 
+<!--specifiying language-->
+<html lang="en"> 
+
+<head> 
+
+<meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head> 
+
+<body> 
+
+<!--Contact page title--> 
+<title> Contact page </title>  
+
+
+<!--Adjusting features such as the font,color,layout, and other visual aspects of web pages.-->
+<style>  
+
+body {  
+/* Made the background of my web page black*/
+background-color: black;  
+
+}  
+
+h1 {  
+/* made my background color of my heading q grey */
+Background-color: grey;  
+/* I centered my heading 1 that says Contact me. */
+Text-align: center;  
+
+}  
+
+h2  
+
+{ 
+/* Made my heading 2 background color yellow */
+Background-color: yellow; 
+/* I centered my heading 2 saying ways to get in contatc with me. */
+text-align: center; 
+
+} 
+
+h3{ 
+/* I centered my heading 3 saying Add yout information */
+text-align: center; 
+/* Made my heading 3 background color white. */
+background-color: white; 
+
+} 
+
+input 
+
+{ 
+/* Made background color white for my input field. */
+background-color: white; 
+/* Set wuth to 70 so that it changes depending how big the screen is. */
+width: 70%; 
+/* Setted margin to 12% */
+margin-left: 12%;
+/* Set font size to 20px for a reasonable size. */
+font-size: 20px; 
+/* added padding to create space */
+padding: 16px 16px; 
+/* added border radius to round the corners */
+border-radius: 10px;
+/* setted border color to black */
+border-color: black; 
+/* set margin bottom to 20px */
+margin-bottom: 20px; 
+
+ 
+
+} 
+
+textarea{ 
+/* Made background color white for my text area. */
+background-color: white; 
+/* set width to 70 so it changes based on how big the screen is. */
+width: 70; 
+/* Setted margin to 12% */
+margin-left: 12%; 
+/* Set font size to 20px for a reasonable size. */
+font-size: 20px; 
+/* added padding to create space */
+padding: 16px 16px; 
+/* added border radius to round the corners */
+border-radius: 10px; 
+/* setted border color to black */
+border-color: black; 
+/* set margin bottom to 25px */
+margin-bottom: 25px; 
+/* listed many different fonts */
+font-family: verdana, Arial, Helvetica, cursive;  
+
+; 
+
+} 
+
+input:focus-within{ 
+/* set outline to none. */
+outline: none; 
+/* set border color to green. */
+border-color: #5bd183;
+/* Made border witdh 3px */
+border-width: 3px; 
+
+} 
+
+textarea:focus-within{ 
+/* set outline to none. */
+outline: none; 
+/* set border color to green. */
+border-color: #5bd183; 
+/* Made border witdh 3px */
+border-width: 3px; 
+
+} 
+
+button 
+{ 
+/* Made my button backgroud color green */
+background-color: #5bd183; 
+/* Made border radius 20px for my button */
+border-radius: 20px; 
+/* Made border color black for my button */
+border-color: black; 
+/* Made font size 22px for my button */
+font-size: 22px; 
+/* Adjusted my padding for my button */
+padding: 10px 18px;
+/* Centered my button */
+text-align: center; 
+/* set my display for my button to flex */
+display: flex; 
+/* set my margin to auto for my button */
+margin: auto; 
+
+ 
+
+} 
+
+button:hover 
+
+{ 
+/* added opacity so users know when they are hovering over it. */
+opacity: 80%; 
+/* changed cursor to pointer. */
+cursor: pointer; 
+
+} 
+
+ 
+/* indicating that this is a class */
+.navbar ul{  
+/* setting list style type to none */
+list-style-type: none;  
+/* adjusted background color for my nav bar to grey */
+background-color: rgba(128, 128, 128, 0.614);  
+/* set padding to 0px */
+padding: 0px;  
+/* setted margin to 0px */
+margin: 0px;  
+/* setted overfloe to hidden on my nav bar to prevent extra white space and horizontal scrolling */
+overflow: hidden; 
+
+}  
+/* indicating that this is a class */
+.navbar a{  
+ /* setted nav bar color to white */
+color: white;  
+/* text decoration setted to none on my nav bar */
+text-decoration: none;  
+/* padding set to 15px on my nav bar */
+padding: 15px;  
+/* dsiplay set to block in my nav bar to take up all the avaliable screen width */
+display: block;  
+/* set the alignment to center  */
+text-align: center;  
+/* nav bar font size set to 20px to make it more bigger. */
+font-size: 20px; 
+
+} 
+/* nav bar class */
+.navbar a:hover{ 
+/* i put my nav bar background color to a shade of grey */
+background-color: hsl(0,0%,10%); 
+
+} 
+/* nav bar class */
+.navbar li{ 
+/* set nav bar to left float */
+float:left; 
+
+}  
+
+P {  
+/* Added many fonts  */
+font-family: verdana, Arial, Helvetica, cursive;  
+/* set my paragraph font to 25px */
+font-size: 25px;  
+/* set my paragraph color to white */
+Color: white;  
+
+}  
+
+</style>  
+
+</head>  
+
+<body>  
+<!--heading 1-->
+<h1> Contact Me! </h1>  
+
+<!--nav bar class--> 
+<nav class="navbar"> 
+
+<ul>  
+<!--nav bar home-->
+<li><a href="">Home</a></li>  
+<!--nav bar about-->
+<li><a href="">About</a></li>  
+<!--nav bar contact-->
+<li><a href="">Contact</a></li>  
+
+</ul  
+
+</nav>  
+<!--heading 2-->
+<h2>Ways to get in Contact with me.</h2> 
+ <!--demo javascript-->
+<p id="demo"> Want to be able to reach me?.</p> 
+<!--clickable button that changes message -->
+<button type="button" onclick="myFunction()">click it</button> 
+<!--opening script tag for javascript-->
+<script> 
+
+function myFunction() { 
+
+document.getElementById("demo").innerHTML = "Get Started below!."; 
+
+} 
+
+</script> 
+
+<!--heading 3-->
+<h3>Add your information </h3> 
+<!--Users have to enter first name and it is required-->
+<input type ="text" name="first" placeholder="First Name" autocomplete="off" required> 
+<!--Users have to enter last name and it is required-->
+<input type ="text" name="last" placeholder="Last Name" autocomplete="off" required> 
+<!--Users have to enter email address and it is required-->
+<input type ="email" name="email" placeholder="Email Address" autocomplete="off" required> 
+<!--5 rows and 60 columns for text box-->
+<textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea> 
+<!--submit button when users want to send a message-->
+<button type="submit" >Send Message</button> 
+<!--reset button if users want to change information -->
+<button type="submit" >Reset</button> 
+
+ 
+
+</body>  
+
+</html>  
+
+</body> 
+
+</html> 
+
 
